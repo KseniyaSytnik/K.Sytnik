@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>*** unnamed text ***</title></head><body>
+<style>
+
+  table.CHESS
+  {
+    border-collapse: collapse;
+  }
+
+  table.CHESS td
+  {
+    width: 50px;
+    height: 50px;
+    border: solid gray 1px;
+  }
+  tr:nth-child(odd) td:nth-child(even){
+    background-color: black;
+  }
+  tr:nth-child(even) td:nth-child(odd){
+    background-color: black;
+  }
+  html body table.CHESS td:nth-child(1),
+  html body table.CHESS td:last-child,
+ html body table.CHESS tr:first-child td,
+ html body table.CHESS tr:last-child td
+ {
+  background-color: aqua;
+  width: 25px;
+  height: 25px;
+ }
+
+</style>
+
+<table class='CHESS'>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+  <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+</table>
+
+</body></html>
