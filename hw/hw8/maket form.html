@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="https://fe.it-academy.by/TestForm.php" method="get">
+
+            <h3>Для публикации вашей статьи заполните, пожалуйста, следующую форму: </h3>
+            <div class="item-1 clearfix">
+                <span>Название статьи:</span>
+                <div class="item-1-input">
+                    <input type="text" name='Название статьи'>
+                </div>
+            </div>
+
+            <div class="item-2 clearfix">
+                <span>Рубрика:</span>
+                <div class="item-2-option">
+                    <select name="Рубрика">
+                        <option value="1">компьютерная техника</option>
+                        <option value="2">графика и дизайн</option>
+                        <option value="3">программирование</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item-3 clearfix">
+                <span>Публикация:</span>
+                <div class="item-3-radio">
+                    <input type="radio" name="Публикация" value="1">
+                    <span class="span-radio">на сайте</span>
+                    <input type="radio" name="Публикация" value="2">
+                    <span class="span-radio">в журнале</span>
+                    <input type="radio" name="Публикация" value="3">
+                    <span class="span-radio">на сайте и в журнале</span>
+                </div>
+            </div>
+            <div class="item-4 clearfix">
+                <span>Разрешить комментарии:</span>
+                <div class="item-4-checkbox">
+                    <input type="checkbox" name="комментарии" checked>
+                </div>
+            </div>
+            <div class="item-5">
+                <span>Текст статьи:</span><br>
+                <textarea name="Текст"></textarea>
+            </div>
+            <div class="item-6">
+                <input type="submit" value="Опубликовать">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
+</body>
+</html>
